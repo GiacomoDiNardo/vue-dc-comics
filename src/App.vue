@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TheHeader/>
+    <JumbotronImage/>
     <BannerBlack/>
     <BannerBlue/>
     <TheFooter/>
@@ -14,6 +15,7 @@ import TheFooter from "./components/TheFooter.vue";
 import BannerSignUp from "./components/BannerSignUp.vue";
 import BannerBlack from "./components/BannerBlack.vue";
 import BannerBlue from "./components/BannerBlue.vue";
+import JumbotronImage from "./components/JumbotronImage.vue"
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     BannerSignUp,
     BannerBlack,
     BannerBlue,
+    JumbotronImage,
   }
 }
 </script>
@@ -33,6 +36,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
