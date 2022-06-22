@@ -77,7 +77,7 @@
         color: black;
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
     }
 </style>

@@ -122,10 +122,6 @@ export default {
   color: white;
 }
 
-.content-text {
-  font-weight: bold;
-}
-
 .jumbo-btn {
   top: 0;
   left: 0;
@@ -141,7 +137,7 @@ export default {
 }
 
 .col .card-body {
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
