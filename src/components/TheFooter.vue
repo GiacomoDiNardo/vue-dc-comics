@@ -1,8 +1,8 @@
 <template>
-    <div class="footer-bg py-5">
+    <div class="footer-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row justify-content-between">
+                <div class="col-5 py-5">
                     <ul class="d-flex flex-wrap list-unstyled gap-5">
                         <li class="m-height">
                             <h3>DC Comics</h3>
@@ -37,6 +37,9 @@
                             </ul>
                         </li>
                     </ul>
+                </div>
+                <div class="col-6 footer-logo">
+                    <img src="/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
         </div>
@@ -91,20 +94,30 @@
     background-image: url("../../public/img/footer-bg.jpg");
     background-size: cover;
     color: white;
+    font-size: 12px;
 }
 
 ul li h3 {
     text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ul li a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: grey;
     margin-bottom: 3px;
 }
 
 .m-height {
-    max-height: 215px;
+    max-height: 150px;
+}
+
+.footer-logo {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
-    <div class="container py-4">
-        <div class="row justify-content-between align-items-center">
-            <div class="col header-logo">
+    <div class="container py-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="header-logo d-flex justify-content-start align-items-center">
                 <img src="/img/dc-logo.png" alt="">
             </div>
-            <div class="col">
+            <div class="">
                 <ul class="d-flex list-unstyled justify-content-end gap-4">
                     <li v-for="(link, i) in headLinks" :key="i">
                         <a class="head-link" :href="link.href">{{ link.name }}</a>
@@ -69,8 +69,8 @@
 
 <style scoped>
     .header-logo img {
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
     }
 
     ul li a {
